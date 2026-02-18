@@ -27,6 +27,7 @@ h1 {
 h2 {
   color:#e1c6f3;
   font-weight: 500;
+  margin-top: 40px;
 }
 h2::after {
   content: '';
@@ -44,12 +45,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#e1c6f3;
+  color:#a6a8f6;
   text-decoration:none;
 }
 
 a:hover {
-  color:#e1c6f3;
+  color:#a6a8f6;
 }
 
 a small {
