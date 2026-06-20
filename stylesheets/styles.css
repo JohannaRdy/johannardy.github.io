@@ -1,13 +1,13 @@
 body {
-  background-color: #14083f;
+  background-color: #e3d3f5;
   padding:50px;
   font: 14px/1.5 Monaco, 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  color:#efe6fa;
+  color:#2d1f4d;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#e1c6f3;
+  color:#56299c;
   margin:0 0 20px;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  color:#e1c6f3;
+  color:#56299c;
   font-weight: 500;
   margin-top: 40px;
 }
@@ -34,34 +34,74 @@ h2::after {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #e1c6f3;
+  background-color: #c9aef0;
   margin-top: 10px;
 }
 
 
 h3, h4, h5, h6 {
-  color:#e1c6f3;
+  color:#56299c;
   font-weight: 500;
 }
 
 a {
-  color:#9092f2;
+  color:#7a30c9;
   text-decoration:none;
+  transition: color .15s ease;
 }
 
 a:hover {
-  color:#9092f2;
+  color:#56299c;
+  text-decoration:underline;
 }
 
 a small {
   font-size:11px;
-  color:#9092f2;
+  color:#7a30c9;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#9092f2;
+  color:#56299c;
+}
+
+p.tagline {
+  color:#6b4a99;
+  font-size:13px;
+  margin:14px 0 6px;
+}
+
+ul.links {
+  list-style:none;
+  padding:0;
+  margin:0 0 20px;
+  background:none;
+  border:none;
+  height:auto;
+  width:auto;
+}
+
+ul.links li {
+  margin:0 0 4px;
+  float:none;
+  width:auto;
+  height:auto;
+  border:none;
+}
+
+ul.links a {
+  display:inline;
+  text-align:left;
+  font-size:14px;
+  line-height:1.5;
+  height:auto;
+  padding:0;
+  color:#7a30c9;
+}
+
+ul.links a:hover {
+  color:#56299c;
 }
 
 .wrapper {
